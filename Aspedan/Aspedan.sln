@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspedan", "Aspedan\Aspedan.csproj", "{04E3253D-5EEB-4457-9D01-55FE4155FD95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2B752956-04DB-4C36-AD5C-200AA61611DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspedan.UnitTests", "Aspedan.UnitTests\Aspedan.UnitTests.csproj", "{56150085-EB6D-4836-BCEF-F2CE7F87BE7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E3253D-5EEB-4457-9D01-55FE4155FD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E3253D-5EEB-4457-9D01-55FE4155FD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E3253D-5EEB-4457-9D01-55FE4155FD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E3253D-5EEB-4457-9D01-55FE4155FD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56150085-EB6D-4836-BCEF-F2CE7F87BE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56150085-EB6D-4836-BCEF-F2CE7F87BE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56150085-EB6D-4836-BCEF-F2CE7F87BE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56150085-EB6D-4836-BCEF-F2CE7F87BE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56150085-EB6D-4836-BCEF-F2CE7F87BE7F} = {2B752956-04DB-4C36-AD5C-200AA61611DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02B0CA9-3950-4A84-ACE6-9CF46C4CF659}
+	EndGlobalSection
+EndGlobal
